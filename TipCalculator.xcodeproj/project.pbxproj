@@ -15,6 +15,7 @@
 		411CEF271DD650D400A7C4A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 411CEF251DD650D400A7C4A0 /* LaunchScreen.storyboard */; };
 		411CEF321DD650D400A7C4A0 /* TipCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411CEF311DD650D400A7C4A0 /* TipCalculatorTests.m */; };
 		411CEF3D1DD650D400A7C4A0 /* TipCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 411CEF3C1DD650D400A7C4A0 /* TipCalculatorUITests.m */; };
+		411CEF4C1DD6602000A7C4A0 /* TipCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 411CEF4B1DD6602000A7C4A0 /* TipCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		411CEF381DD650D400A7C4A0 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		411CEF3C1DD650D400A7C4A0 /* TipCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalculatorUITests.m; sourceTree = "<group>"; };
 		411CEF3E1DD650D400A7C4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		411CEF4A1DD6602000A7C4A0 /* TipCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipCalculator.h; sourceTree = "<group>"; };
+		411CEF4B1DD6602000A7C4A0 /* TipCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TipCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		411CEF0B1DD650D400A7C4A0 = {
 			isa = PBXGroup;
 			children = (
+				411CEF4A1DD6602000A7C4A0 /* TipCalculator.h */,
+				411CEF4B1DD6602000A7C4A0 /* TipCalculator.m */,
 				411CEF161DD650D400A7C4A0 /* TipCalculator */,
 				411CEF301DD650D400A7C4A0 /* TipCalculatorTests */,
 				411CEF3B1DD650D400A7C4A0 /* TipCalculatorUITests */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				411CEF1F1DD650D400A7C4A0 /* ViewController.m in Sources */,
+				411CEF4C1DD6602000A7C4A0 /* TipCalculator.m in Sources */,
 				411CEF1C1DD650D400A7C4A0 /* AppDelegate.m in Sources */,
 				411CEF191DD650D400A7C4A0 /* main.m in Sources */,
 			);
